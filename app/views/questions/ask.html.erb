@@ -1,0 +1,15 @@
+
+<div class="wrapper display-center">
+  <div class="container">
+    <div class="domenech">
+      <h1>Please ask you goddamn question</h1>
+      <form action="/answer" class="form-inline">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        <div class="form-group">
+          <input type="text" name="question" placeholder="Type in your question" class="form-control">
+        </div>
+        <button type="Ask" class="btn btn-primary">Ask</button>
+      </form>
+    </div>
+  </div>
+</div>
